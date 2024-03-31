@@ -82,70 +82,70 @@
         win_lock: win_lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp L>;
+            bindings = <&kp LG(L)>;
             label = "WIN_LOCK";
         };
 
         scrnshot: scrnshot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LEFT_SHIFT &kp S>;
+            bindings = <&kp LG(LS(S))>;
             label = "SCRNSHOT";
         };
 
         copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp C>;
+            bindings = <&kp LC(C)>;
             label = "COPY";
         };
 
         paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp V>;
+            bindings = <&kp LC(V)>;
             label = "PASTE";
         };
 
         cut: cut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp X>;
+            bindings = <&kp LC(X)>;
             label = "CUT";
         };
 
         tab_ahead: tab_ahead {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp TAB>;
+            bindings = <&kp LC(TAB)>;
             label = "TAB_AHEAD";
         };
 
         tab_back: tab_back {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp TAB>;
+            bindings = <&kp LC(LS(TAB))>;
             label = "TAB_BACK";
         };
 
         close_tab: close_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp W>;
+            bindings = <&kp LC(W)>;
             label = "CLOSE_TAB";
         };
 
         reopen_tab: reopen_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp T>;
+            bindings = <&kp LC(LS(T))>;
             label = "REOPEN_TAB";
         };
 
         alt_f4: alt_f4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp F4>;
+            bindings = <&kp LA(F4)>;
             label = "ALT_F4";
         };
     };
